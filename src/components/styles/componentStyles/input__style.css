@@ -1,0 +1,78 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.form__inputs{
+    padding: 20px;
+    padding-top: 82px;
+    background-color: white;
+    color: black;
+    min-width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labelsName {
+    font-size: 27px;
+    margin-right: 3%;
+}
+
+.form-group{
+    width: 90%;
+}
+label{
+    display: flex;
+}
+.button{
+    width: 91%;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.age__input{
+    margin-top: 16px;
+}
+
+.notification-text{
+    color: aliceblue;
+}
+
+.valid__text{
+    margin-bottom: 3px;
+    width: 100%;
+    text-align: center;
+    color: green;
+    background-color: transparent;
+}
+.invalid__text{
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3px;
+    background-color: transparent;
+}
+
+.show-table-btn{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+@media (max-width: 680px){
+    .nav__image__container {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 650px){
+    .form__inputs{
+        width: 83% ;
+    }
+}
+
+@media (max-width: 400px){
+    .form__inputs{
+            width: 95% ;
+    }
+}

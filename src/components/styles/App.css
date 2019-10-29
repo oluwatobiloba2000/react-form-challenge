@@ -1,0 +1,50 @@
+@import './componentStyles/input__style.css';
+@import './componentStyles/table__style.css';
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../../bg.jpg);
+  background-size: 100% 100%;
+  height: 160vh;
+  overflow-x: hidden;
+}
+
+.nav__image__container{
+  float: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+   margin-top: 0px;
+  width: 50%;
+}
+.nav__image__container img{
+  width: 41%;
+}
+.text{
+  font-size: 20px;
+  font-size: 18px;
+    color: purple;
+    text-decoration: underline;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}

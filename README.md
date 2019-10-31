@@ -1,4 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43cb8d35-75ce-432a-8635-599cd02ecd30/deploy-status)](https://app.netlify.com/sites/reactjs-form-challenge/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## DEPLOYED LINK
+https://reactjs-form-challenge.netlify.com/
 
 ## Available Scripts
 
